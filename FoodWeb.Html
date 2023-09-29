@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="FoodWeb.Css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>FOODIE</h1>
+            </div>
+            <div class="input">
+                <input type="text" value="" id="inp" placeholder="search here..." onkeyup="myfun()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i onclick="nav()" class="fa-solid fa-bars"></i>               
+            </div>
+        </nav>
+
+        <!--main page-->
+
+        <div class="main">
+            <div class="text">
+                <h1>Healthy & Tasty</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel ex nobis ducimus natus hic excepturi, dolore, esse maxime rem pariatur magnam distinctio eius earum quaerat laboriosam provident. Incidunt, inventore cum!</p>
+                <button>explore more</button>
+            </div>
+            <img src="burger-png-png-images-yellow-images-12 - Copy.png" alt="">
+        </div>
+
+        <!--card food-->
+
+        <table>
+            <tr>
+                <td>
+                    <div class="head">
+                        <h1>our<span>foods</span></h1>
+                    </div>
+                <div class="card">
+                    <img src="fds (1).jpg" alt="">
+                    <h2>199 Rupees only</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sed et nobis ullam iure nisi, recusandae at numquam quidem similique, ea temporibus quos. Sint, a amet. Aut quis fuga maiores.</p>
+                    <button>order now</button>
+                </div>
+                <div class="card">
+                    <img src="fds (2).jpg" alt="">
+                    <h2>150 Rupees only</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sed et nobis ullam iure nisi, recusandae at numquam quidem similique, ea temporibus quos. Sint, a amet. Aut quis fuga maiores.</p>
+                    <button>order now</button>
+                </div>
+                <div class="card">
+                    <img src="fds(3).jpg" alt="">
+                    <h2>80 Rupees only</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sed et nobis ullam iure nisi, recusandae at numquam quidem similique, ea temporibus quos. Sint, a amet. Aut quis fuga maiores.</p>
+                    <button>order now</button>
+                </div>
+                <div class="card">
+                    <img src="fds (4).jpg" alt="">
+                    <h2>149 Rupees only</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sed et nobis ullam iure nisi, recusandae at numquam quidem similique, ea temporibus quos. Sint, a amet. Aut quis fuga maiores.</p>
+                    <button>order now</button>
+                </div>
+                <div class="card">
+                    <img src="fds (5).jpg" alt="">
+                    <h2>200 Rupees only</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sed et nobis ullam iure nisi, recusandae at numquam quidem similique, ea temporibus quos. Sint, a amet. Aut quis fuga maiores.</p>
+                    <button>order now</button>
+                </div>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="head">
+                        <h1>Our <sapn>Blogs</sapn></h1>
+                    </div>
+                    <div class="Blogs">
+                        <img src="fds (6).jpg" alt="">
+                        <h2>Fact about indian food</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sed et nobis ullam iure nisi, recusandae at numquam quidem similique, ea temporibus quos. Sint, a amet. Aut quis fuga maiores.</p>
+                        <a href="https://www.littleindiaofdenver.com/blog/7-facts-you-never-knew-about-indian-food/">Read more</a>
+                        </div>
+                        <div class="Blogs">
+                            <img src="fds (7).jpg" alt="">
+                            <h2>Delicious chicken recipe</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sed et nobis ullam iure nisi, recusandae at numquam quidem similique, ea temporibus quos. Sint, a amet. Aut quis fuga maiores.</p>
+                            <a href="https://recipes.timesofindia.com/articles/features/10-best-chicken-recipes-you-should-try/articleshow/62710927.cms">Read more</a>
+                            </div>
+                            <div class="Blogs">
+                                <img src="fds (8) (1).jpg" alt="">
+                                <h2>Different type of fried rice</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sed et nobis ullam iure nisi, recusandae at numquam quidem similique, ea temporibus quos. Sint, a amet. Aut quis fuga maiores.</p>
+                                <a href="https://recipes.timesofindia.com/recipes/fried-rice/rs53111677.cms">Read more</a>
+                                </div>
+                                <div class="Blogs">
+                                    <img src="fds (9).jpg" alt="">
+                                    <h2>classic cheese pizza</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sed et nobis ullam iure nisi, recusandae at numquam quidem similique, ea temporibus quos. Sint, a amet. Aut quis fuga maiores.</p>
+                                    <a href="https://www.foodandwine.com/recipes/classic-cheese-pizza">Read more</a>
+                                    </div>
+                                    <div class="Blogs">
+                                        <img src="fds (10).webp" alt="">
+                                        <h2>classic cheese pizza</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sed et nobis ullam iure nisi, recusandae at numquam quidem similique, ea temporibus quos. Sint, a amet. Aut quis fuga maiores.</p>
+                                        <a href="">Read more</a>
+                                        </div>
+    
+
+
+                </td>
+            </tr> 
+        </table>
+
+    
+        <!--Customer Review--> 
+
+        <div class="review">
+            <div class="customer">
+                <img src="men (1) (1).jpg" alt="">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, placeat! Quis dolorum fugiat, adipisci qui iste cumque veritatis ab praesentium, deleniti velit, eum eaque inventore. Laboriosam architecto minus aliquid itaque.</p>
+
+                
+            </div>
+            <div class="customer">
+                <img src="men (2).jpg" alt="">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i> 
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, placeat! Quis dolorum fugiat, adipisci qui iste cumque veritatis ab praesentium, deleniti velit, eum eaque inventore. Laboriosam architecto minus aliquid itaque.</p>
+                </div>
+                <div class="customer">
+                    <img src="men (3).jpg" alt="">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, placeat! Quis dolorum fugiat, adipisci qui iste cumque veritatis ab praesentium, deleniti velit, eum eaque inventore. Laboriosam architecto minus aliquid itaque.</p>
+                    </div> 
+                    
+        </div>
+        <div class="footer">
+            <div class="text">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur vel, consequuntur molestiae fugit repellat laboriosam earum possimus saepe labore laudantium, exercitationem ipsam fugiat voluptate nulla porro? Sint a corrupti dolor.</p>
+            <p>Service</p>
+            <p>Customer</p>
+            <p>Foods</p>
+
+            </div>
+        </div>
+
+        <div class="text">
+            <h2>About Us</h2>
+            <p>Product</p>
+            <p>Service</p>
+            <p>Customer</p>
+            <p>Foods</p>
+
+            </div>
+
+            <div class="text">
+                <h2>About Us</h2>
+                <p>Near</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+    
+                </div>
+
+                <div class="text">
+                    <h2>About Us</h2>
+                   <p>Website</p>
+                    <p>Service</p>
+                    <p>Customer</p>
+                    <p>Foods</p>
+        
+                    </div>
+        
+
+
+    
+
+</div>
+<script src="FoodWeb.Js"></script>
+
+    
+</body>
+</html>
